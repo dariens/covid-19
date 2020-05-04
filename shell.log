@@ -1,0 +1,87 @@
+2020-04-17 16:43:04 - Microsoft (R) F# Interactive version 10.1.0 for F# 4.1
+2020-04-17 16:43:04 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2020-04-17 16:43:04 - For help type #help;;
+2020-04-17 16:43:04 - > val it :
+2020-04-17 16:43:04 -   ResizeArray<System.Type *
+2020-04-17 16:43:04 -               (obj ->
+2020-04-17 16:43:04 -                  seq<string *
+2020-04-17 16:43:04 -                      string> *
+2020-04-17 16:43:04 -                  string)>
+2020-04-17 16:43:04 - = seq []
+2020-04-17 16:43:04 - --> Added '/home/nbuser/IfSharp/bin' to library include path
+2020-04-17 16:43:04 - --> Referenced '/home/nbuser/IfSharp/bin/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2020-04-17 16:43:04 - --> Referenced '/home/nbuser/IfSharp/bin/NetMQ.dll' (file may be locked by F# Interactive process)
+2020-04-17 16:43:05 - Reporting 0 opened comms
+2020-04-17 16:43:05 - let x = 1
+2020-04-17 16:43:05 - let y = 2
+2020-04-17 16:43:05 - x * y
+2020-04-17 16:44:35 - #load "Paket.fsx"
+2020-04-17 16:44:35 - Paket.Package
+2020-04-17 16:44:35 - [
+2020-04-17 16:44:35 -    "FSharp.SystemTextJson"
+2020-04-17 16:44:35 - ]
+2020-04-17 16:45:12 - open System.Text.Json
+2020-04-17 16:45:12 - open System.Text.Json.Serialization
+2020-04-17 16:45:13 - The namespace 'Json' is not defined.
+2020-04-17 16:45:13 - The namespace 'Json' is not defined.
+2020-04-17 16:46:27 - open System.Text.Json
+2020-04-17 16:46:28 - The namespace 'Json' is not defined.
+2020-04-26 18:28:14 - Microsoft (R) F# Interactive version 10.1.0 for F# 4.1
+2020-04-26 18:28:14 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2020-04-26 18:28:14 - For help type #help;;
+2020-04-26 18:28:14 - > val it :
+2020-04-26 18:28:14 -   ResizeArray<System.Type *
+2020-04-26 18:28:14 -               (obj ->
+2020-04-26 18:28:14 -                  seq<string *
+2020-04-26 18:28:14 -                      string> *
+2020-04-26 18:28:14 -                  string)>
+2020-04-26 18:28:14 - = seq []
+2020-04-26 18:28:14 - --> Added '/home/nbuser/IfSharp/bin' to library include path
+2020-04-26 18:28:14 - --> Referenced '/home/nbuser/IfSharp/bin/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2020-04-26 18:28:14 - --> Referenced '/home/nbuser/IfSharp/bin/NetMQ.dll' (file may be locked by F# Interactive process)
+2020-04-26 18:28:14 - Reporting 0 opened comms
+2020-04-26 18:29:32 - #load "Paket.fsx"
+2020-04-26 18:29:32 - Paket.Package
+2020-04-26 18:29:32 - [
+2020-04-26 18:29:32 -    "Newtonsoft.Json"
+2020-04-26 18:29:32 - ]
+2020-04-26 18:30:45 - open Newtonsoft.Json
+2020-04-26 18:30:45 - The namespace or module 'Newtonsoft' is not defined.
+2020-04-26 18:32:06 - #load "Paket.fsx"
+2020-04-26 18:32:06 - Paket.Package
+2020-04-26 18:32:06 - [
+2020-04-26 18:32:06 -    "Newtonsoft.Json"
+2020-04-26 18:32:06 - ]
+2020-04-26 18:32:06 - open Newtonsoft.Json
+2020-04-26 18:32:07 - The namespace or module 'Newtonsoft' is not defined.
+2020-04-26 18:32:56 - open Newtonsoft.Json.Serialization
+2020-04-26 18:32:56 - The namespace or module 'Newtonsoft' is not defined.
+2020-04-26 18:33:02 - #load "Paket.fsx"
+2020-04-26 18:33:02 - Paket.Package
+2020-04-26 18:33:02 - [
+2020-04-26 18:33:02 -    "Newtonsoft.Json"
+2020-04-26 18:33:02 - ]
+2020-04-26 18:33:06 - open Newtonsoft.Json.Serialization
+2020-04-26 18:33:06 - The namespace or module 'Newtonsoft' is not defined.
+2020-04-26 18:34:11 - #load "Paket.fsx"
+2020-04-26 18:34:18 - #load "Paket.fsx"
+2020-04-26 18:34:22 - Paket.Package
+2020-04-26 18:34:22 - [
+2020-04-26 18:34:22 -    "Newtonsoft.Json"
+2020-04-26 18:34:22 - ]
+2020-04-26 18:34:49 - #load "paket-files/include-scripts/net45/include.main.group.fsx"
+2020-04-26 18:34:49 - Unable to find the file 'paket-files/include-scripts/net45/include.main.group.fsx' in any of
+2020-04-26 18:34:49 -  /home/nbuser/IfSharp/bin
+2020-04-26 18:34:49 -  /home/nbuser/library
+2020-04-26 18:36:07 - Paket.LoadingScripts.ScriptGeneration.generateScriptsForRootFolder 
+2020-04-26 18:36:07 -    Paket.LoadingScripts.ScriptGeneration.FSharp
+2020-04-26 18:36:07 -    (Paket.FrameworkIdentifier.DotNetFramework Paket.FrameworkVersion.V4_5)
+2020-04-26 18:36:07 -    (System.IO.DirectoryInfo __SOURCE_DIRECTORY__)
+2020-04-26 18:36:07 - The value, constructor, namespace or type 'generateScriptsForRootFolder' is not defined. Maybe you want one of the following:
+2020-04-26 18:36:07 -    generateScriptContent
+2020-04-26 18:36:07 -    generateScript
+2020-04-26 18:36:07 -    Generate
+2020-04-26 18:36:07 - #load "paket-files/include-scripts/net45/include.main.group.fsx"
+2020-04-26 18:36:07 - Unable to find the file 'paket-files/include-scripts/net45/include.main.group.fsx' in any of
+2020-04-26 18:36:07 -  /home/nbuser/IfSharp/bin
+2020-04-26 18:36:07 -  /home/nbuser/library
